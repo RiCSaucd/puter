@@ -1,0 +1,23 @@
+{
+    "name": "tradingview-mcp",
+    "version": "0.1.0",
+    "description": "Zero-dependency MCP server exposing TradingView symbol search, quotes, technical-analysis ratings, and screener queries over stdio.",
+    "type": "module",
+    "private": true,
+    "main": "src/server.js",
+    "bin": {
+        "tradingview-mcp": "src/server.js"
+    },
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "start": "node src/server.js",
+        "test": "vitest run"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "author": "Puter Technologies Inc.",
+    "license": "AGPL-3.0-only"
+}
