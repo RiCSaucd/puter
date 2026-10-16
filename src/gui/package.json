@@ -48,8 +48,8 @@
     "@thumbmarkjs/thumbmarkjs": "1.9.1",
     "file-type": "21.3.3",
     "json-colorizer": "^3.0.1",
-    "music-metadata": "11.12.3",
-    "nodemailer": "8.0.7",
+    "music-metadata": "11.16.0",
+    "nodemailer": "10.1.1",
     "string-template": "^1.0.0",
     "uuid": "^14.0.0"
   }
